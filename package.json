@@ -1,0 +1,33 @@
+{
+  "name": "events-api",
+  "version": "1.0.0",
+  "description": "events api",
+  "main": "lib/start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lib/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonLab/events.git"
+  },
+  "keywords": [
+    "events",
+    "hapi",
+    "api"
+  ],
+  "author": "SimonLab <simon@foundersandcoders.com> (https://github.com/SimonLab)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonLab/events/issues"
+  },
+  "homepage": "https://github.com/SimonLab/events#readme",
+  "dependencies": {
+    "env2": "^2.0.6",
+    "handlebars": "^4.0.5",
+    "hapi": "^13.2.1",
+    "hoek": "^3.0.4",
+    "inert": "^3.2.0",
+    "vision": "^4.0.1"
+  }
+}
